@@ -24,11 +24,35 @@ header {
 }
 
 /*
+    div holding both logo and title
+    turn into inline flex
+    align content to the left
+*/
+.logo-title {
+    display: inline-flex;
+    width: 30%;
+    justify-content: left;
+}
+
+/*
     set width and height of logo
 */
 #header-img {
     height: 80px;
     width: 80px;
+}
+
+/*
+    title into flex container
+    center vertically
+    set font size, weight and margins
+*/
+.title {
+    display: flex;
+    align-self: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0em 1em;
 }
 
 /*

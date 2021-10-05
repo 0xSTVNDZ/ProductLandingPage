@@ -19,14 +19,73 @@
             
             <!--nav links-->
             <nav id="nav-bar">
-                <p class="nav-link"><a href="#first">first</a></p>
-                <p class="nav-link"><a href="#second">second</a></p>
-                <p class="nav-link"><a href="#third">third</a></p>
+                <p class="nav-link"><a href="#upcoming">Upcoming</a></p>
+                <p class="nav-link"><a href="#sign-up">SignUp</a></p>
+                <p class="nav-link"><a href="#highlights">Highlights</a></p>
             </nav>
         </header>
+
+        <!--title for upcoming shoe section-->
+        <div class="upcoming-title">
+            <h2>Upcoming Releases</h2>
+        </div>
+        
+        <!--upcoming shoe section-->
+        <div class="upcoming-shoes" id="upcoming">
+            <!--each div groups together the image and 3 pieces of info-->
+            <div class="image-info">
+                <img src="./images/pearl-white.jpeg" alt="Women's Air Force 1 Fontanka Pearl White">
+                <p>Pearl White</p>
+                <p>Oct 7</p>
+                <p>$110</p>
+            </div>
+
+            <div class="image-info">
+                <img src="./images/blue-bird.jpeg" alt="Women's Air Jordan 5 Blue Bird">
+                <p>Blue Bird</p>
+                <p>Oct 7</p>
+                <p>$190</p>
+            </div>
+
+            <div class="image-info">
+                <img src="./images/championship-navy.jpeg" alt="Dunk High Championship Navy">
+                <p>Championship Navy</p>
+                <p>Oct 8</p>
+                <p>$110</p>
+            </div>
+        </div>
+
+        <!--section that will hold our form-->
+        <div class="form-section" id="sign-up">
+            <!--form-->
+            <form action="">
+                <!--div to hold label and inputs together-->
+                <div class="email-div">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your email to be notified of new releases">
+                </div>
+                <!--submit buttom-->
+                <div class="submit">
+                    <input type="submit" value="Submit" class="submit-button" id="submit">
+                </div>
+            </form>
+        </div>
+
+        <!--embed a video on the page-->
+        <div class="video-section" id="highlights">
+            <!--iframe taken from youtube, not sure why it doesnt load-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SUo8skGvl-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </body>
 
     <footer>
-
+        <div class="misc">
+            <p><a href="">Privacy</a></p>
+            <p><a href="">Terms</a></p>
+            <p><a href="">Contact</a></p>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2021, Nike</p>
+        </div>
     </footer>
 </html>

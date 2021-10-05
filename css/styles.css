@@ -21,6 +21,9 @@ header {
     position: fixed;
     height: 80px;
     justify-content: space-between;
+    background-color: white;
+    z-index: 5;
+    top: 0;
 }
 
 /*
@@ -72,6 +75,7 @@ header {
 .nav-link {
     margin: 1em 4em;
     height: 24px;
+
 }
 
 /*
@@ -81,8 +85,232 @@ header {
     set to bold
 */
 .nav-link a {
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
     color: black;
     font-weight: 700;
+}
+
+/*
+    set div holding the title into a flex container
+    set width, font
+    center horizontally
+*/
+.upcoming-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/*offset start positiong because of nav bar*/
+.upcoming-title h2 {
+    margin-top: 3em;
+}
+
+/*
+    make div into inline flex container
+    space content evenly within
+    set height and width
+    set top-bottom margin
+*/
+.upcoming-shoes {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+    margin: 1em 0em;
+}
+
+/*
+    div holding img and info
+    make into flex container, wrap items within
+    set width 30% of parent
+    set background color and text color
+    add padding
+*/
+.image-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .nav-link {
+        margin: 1em 1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        color: white;
+    }
+}
+
+/*
+    set img dimensions
+*/
+.image-info img {
+    height: 420px;
+    width: 80%;
+}
+
+/*
+    set width of text elements
+    make into flex container to center both vert. and horiz.
+    remove default margins
+*/
+.image-info p {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: none;
+    align-self: center;
+}
+
+/*
+    make form div into flex container
+    set flex wrap, center content vert. and horiz. 
+    set top-bottom margin
+*/
+.form-section {
+    width: 100%;
+    margin: 3em 0em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/*
+    set form to a flex container
+    make it 50% of parent, set height
+    center horizontally
+*/
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 150px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+/*
+    email div into a flex container
+    set height and width
+    set flex-wrap
+*/
+.email-div {
+    width: 50%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*
+    set font size and width of label
+*/
+.email-div label {
+    width: 100%;
+    font-size: 2em;
+}
+
+/*
+    set height and width of input
+    adjust border properties
+*/
+.email-div input {
+    width: 100%;
+    height: 2em;
+    border: 2px solid black;
+}
+
+/*
+    div containing submit button into flex container
+    set margin
+    set height and width
+*/
+.submit {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 3em;
+    margin: 1em 0em;
+}
+
+/*
+    set font size
+    adjust border properties
+    set height
+*/
+.submit-button {
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 70%;
+}
+
+/*
+    set height and width
+    set to flex container
+    set top-bottom margin
+*/
+.video-section {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2em 0em;
+}
+
+/*set dimensions*/
+footer {
+    width: 100%;
+    height: 140px;
+}
+
+/*set misc bar to flex container, align right, set height*/
+.misc {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    height: 40%;
+}
+
+/*set flex container, align vertically, set margin*/
+.misc p {
+    display: flex;
+    align-self: center;
+    margin: 0em 2em;
+}
+
+/*set font size, remove underline, set color*/
+.misc a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black
+}
+
+/*set  flex container, set height, align right*/
+.copyright {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    height: 50%;
+}
+
+/*set flex container, align vertically, set margin*/
+.copyright p {
+    display: flex;
+    align-self: center;
+    margin: 0em 3em;
 }

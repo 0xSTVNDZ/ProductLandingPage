@@ -27,14 +27,13 @@ git  clone 'repository' & open index.html
 
 
 ## Project Status
-Project is: _inprogress_ 
+Project is: _complete_ 
 
 
 ## Room for Improvement
-- 
+- Add more content
 
-To do:
-- begin
+
 
 <!-- CONTRIBUTING -->
 ## Contributing

@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ##  Product Landing Page
 
-<!--[Demo](https://example.com)-->
+[Demo](https://0xstvndz.github.io/ProductLandingPage/)
 
 ### Built With
 

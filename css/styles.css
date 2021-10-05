@@ -140,18 +140,6 @@ header {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 720px) {
-    .nav-link {
-        margin: 1em 1em;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .title {
-        color: white;
-    }
-}
-
 /*
     set img dimensions
 */
@@ -310,7 +298,19 @@ footer {
 
 /*set flex container, align vertically, set margin*/
 .copyright p {
-    display: flex;
+    display: flexbox;
     align-self: center;
     margin: 0em 3em;
+}
+
+@media screen and (max-width: 720px) {
+    .nav-link {
+        margin: 1em 1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        color: white;
+    }
 }

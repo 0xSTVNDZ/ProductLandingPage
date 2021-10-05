@@ -1,0 +1,64 @@
+/*
+    set font size, weight, family, color and background-color
+*/
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    background-color: white;
+}
+
+/*
+    make header into an inline flex container to hold both 
+    the image and the nav links
+    set height and width
+    space content between each other
+*/
+header {
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    justify-content: space-between;
+}
+
+/*
+    set width and height of logo
+*/
+#header-img {
+    height: 80px;
+    width: 80px;
+}
+
+/*
+    make nav bar a flex container
+    height 100% and width 50% of parent container
+    align links to the right of container and centered vertically 
+*/
+#nav-bar {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    height: 100%;
+    align-items: center;
+}
+
+/*set margin on links, set height on p elements*/
+.nav-link {
+    margin: 1em 4em;
+    height: 24px;
+}
+
+/*
+    set font size
+    remove underlines
+    set color
+    set to bold
+*/
+.nav-link a {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

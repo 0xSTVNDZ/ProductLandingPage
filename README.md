@@ -1,14 +1,12 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
+##  Product Landing Page
 
-[Demo](https://example.com)
+<!--[Demo](https://example.com)-->
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* HTML5
+* CSS3
 
 
 <!-- GETTING STARTED -->
@@ -16,35 +14,27 @@
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-
-
 ### Installation
 
+git  clone 'repository' & open index.html
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Features
-- 
+- fixed navigation bar
+- embedded video
+- simple form
+- use of flexbox
 
 
 ## Project Status
-Project is: _completed_ _inprogress_ 
+Project is: _inprogress_ 
 
 
 ## Room for Improvement
 - 
 
 To do:
-- 
+- begin
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -62,15 +52,9 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+Steve - Contact me via Twitter ! [@0xSTVNDZ](https://twitter.com/0xSTVNDZ) 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* freeCodeCamp for the challenge
